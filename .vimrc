@@ -20,8 +20,8 @@ nmap <Leader>p :bn<CR>
 nmap <Leader>1 I//<ESC>
 nmap <Leader><ESC> :nohl<LF> 
 nmap <Leader>` :shell<LF> 
-nmap <Leader>j jzz
-nmap <Leader>k kzz
+nmap J jzz
+nmap K kzz
 nmap <CTRL>u <CTRL>uzz 
 nmap <CTRL>d <CTRL>dzz 
 
