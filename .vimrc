@@ -13,6 +13,7 @@ colorscheme desert
 set guifont=consolas:h12
 set background=light
 set background=dark
+set list listchars=tab:\|_
 
 nmap <Leader>w :w<CR>
 nmap <Leader>q :bp<CR>
