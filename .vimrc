@@ -18,8 +18,9 @@ set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,enuc-jp,euc-kr,latin1
 
 nmap <Leader>w :w<CR>
-nmap <Leader>q :bp<CR>
-nmap <Leader>p :bn<CR>
+nmap <Leader>q :q!<CR>
+nmap <Leader>j :bp<CR>
+nmap <Leader>k :bn<CR>
 nmap <Leader>1 I//<ESC>
 nmap <Leader><ESC> :nohl<LF> 
 nmap <Leader>` :shell<LF> 
