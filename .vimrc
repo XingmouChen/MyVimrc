@@ -7,7 +7,7 @@ set sw=4
 set autoindent
 set cindent
 set incsearch
-colorscheme desert
+colorscheme tomorrow-Night
 "under ubuntu
 "set guifont=Ubuntu\ Mono\ 16
 set guifont=consolas:h12
@@ -16,6 +16,7 @@ set background=dark
 set list listchars=tab:\|_
 set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,enuc-jp,euc-kr,latin1
+set cursorline
 
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q!<CR>
