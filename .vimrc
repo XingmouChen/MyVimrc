@@ -7,7 +7,9 @@ set sw=4
 set autoindent
 set cindent
 set incsearch
-colorscheme tomorrow-Night
+if has("gui_running")
+	colorscheme tomorrow-Night
+endif
 "under ubuntu
 "set guifont=Ubuntu\ Mono\ 16
 set guifont=consolas:h12
@@ -39,3 +41,5 @@ nmap wm :WMToggle<cr>
 
 syntax enable
 syntax on
+
+
