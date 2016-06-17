@@ -8,14 +8,16 @@ set autoindent
 set cindent
 set incsearch
 if has("gui_running")
-	colorscheme tomorrow-Night
+"colorscheme tomorrow-Night
+colorscheme evening
 endif
 "under ubuntu
-"set guifont=Ubuntu\ Mono\ 16
-set guifont=consolas:h12
+set guifont=Ubuntu\ Mono\ 12
+"set guifont=consolas:h12
 set background=light
 set background=dark
-set list listchars=tab:\|_
+"set list listchars=tab:\|_
+set nolist
 set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,enuc-jp,euc-kr,latin1
 set cursorline
@@ -23,8 +25,8 @@ set cursorline
 nmap <Leader>/ i/**/<ESC>hi<CR><CR><ESC>ki<Tab>
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q!<CR>
-nmap <Leader>j :bp<CR>
-nmap <Leader>k :bn<CR>
+nmap <Leader>j :tabp<CR>
+nmap <Leader>k :tabn<CR>
 nmap <Leader>1 I//<ESC>
 nmap <Leader><ESC> :nohl<LF> 
 nmap <Leader>` :shell<LF> 
