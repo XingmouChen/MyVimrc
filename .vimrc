@@ -1,5 +1,6 @@
 let mapleader="\<Space>"
 set number
+set relativenumber
 set showmatch
 set hlsearch
 set ts=4
